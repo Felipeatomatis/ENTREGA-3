@@ -10,7 +10,7 @@ body {
 
 /* NAVBAR */
 .navbar-brand {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
 }
 
 .animate__animated.animate__flash {
@@ -20,8 +20,9 @@ body {
 .nav-link {
   font-size: 1.2rem;
 }
-.nav-link .nav-link:hover,
-.nav-link .nav-link:focus {
+
+.nav-link:hover,
+.nav-link:focus {
   opacity: 0.65;
   border-bottom: 2px solid #fff;
 }
@@ -110,40 +111,7 @@ body {
   margin-left: 1rem;
 }
 
-.fa-facebook {
-  font-size: 40px;
-  color: #757171;
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  line-height: 35px;
-  bottom: 30px;
-  right: 30px;
-}
-
-.fa-twitter {
-  font-size: 40px;
-  color: #757171;
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  line-height: 35px;
-  bottom: 30px;
-  right: 30px;
-}
-
-.fa-whatsapp {
-  font-size: 40px;
-  color: #757171;
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  line-height: 35px;
-  bottom: 30px;
-  right: 30px;
-}
-
-.fa-instagram {
+.fa-facebook, .fa-instagram, .fa-whatsapp, .fa-twitter {
   font-size: 40px;
   color: #757171;
   width: 35px;

@@ -42,36 +42,15 @@
 }
 
 .fa-twitter{
-    font-size: 40px;
-    color: map-get($colors, color-grey);
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    line-height: 35px;
-    bottom: 30px;
-    right: 30px;
+    @extend .fa-facebook;
 }
 
 .fa-whatsapp{
-    font-size: 40px;
-    color: map-get($colors, color-grey);
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    line-height: 35px;
-    bottom: 30px;
-    right: 30px;
+    @extend .fa-facebook;
 }
 
 .fa-instagram{
-    font-size: 40px;
-    color: map-get($colors, color-grey);
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    line-height: 35px;
-    bottom: 30px;
-    right: 30px;
+    @extend .fa-facebook;
 }
 
 /* FIN FOOTER */
