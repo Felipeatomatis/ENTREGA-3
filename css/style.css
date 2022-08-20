@@ -50,10 +50,12 @@ body {
 /* TITULOS DE SECCIONES */
 .title {
   text-align: center;
+  font-size: 40px;
 }
 
 .sub-title {
   text-align: center;
+  font-size: 25px;
 }
 
 /* FIN TITULOS DE SECCIONES */
