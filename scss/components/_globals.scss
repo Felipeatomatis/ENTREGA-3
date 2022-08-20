@@ -1,0 +1,63 @@
+/* BOTONES */
+
+.btn-primary {
+    background-color: map-get($colors, color-black);
+    color: map-get($colors, color-white);
+}
+
+.btn {
+    color: map-get($colors, color-white);
+    border: 1px solid #fff;
+}
+    .btn:hover,
+    .btn:focus {
+    color: map-get($colors, color-black);
+    background-color: map-get($colors, color-white);
+    border: 1px solid #000;
+}
+
+/* FIN BOTONES */ 
+
+/* TITULOS DE SECCIONES */  
+
+.title {
+    text-align: center;
+}
+
+.sub-title{
+    text-align: center;
+}
+
+/* FIN TITULOS DE SECCIONES */ 
+
+/* CARDS IMAGES */
+
+
+.card {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+
+    img {
+        height: 100%;
+    }
+}
+
+/* FIN CARDS IMAGES */
+
+/* PUBLICIDAD */
+
+.carousel-inner {
+    border: 2px solid #000;
+}
+
+/* FIN PUBLICIDAD */
+
+/* ARTICULO ASIDE */
+
+.aside-container {
+    padding: 1rem;   
+}
+
+/* FIN ARTICULO ASIDE */
